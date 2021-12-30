@@ -12,7 +12,7 @@ contract LinearBondingCurve is ERC20 {
     uint256 public blockPriceIncrement;
 
     constructor() ERC20('MyDAO', 'TEST', 18) {
-        startingPrice = 10; // hardcoded values for ease of test deployment
+        startingPrice = 100; // hardcoded values for ease of test deployment
 
         blockSize = 10;
 
